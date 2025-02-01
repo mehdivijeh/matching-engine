@@ -1,0 +1,12 @@
+.env
+
+bin/
+dist/
+
+.idea/
+.vscode/
+
+*.log
+
+tmp/
+temp/
