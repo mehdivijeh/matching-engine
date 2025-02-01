@@ -5,9 +5,9 @@ import (
 	"context"
 	"sync"
 
-	"orderMatching/internal/domain/entities"
-	"orderMatching/internal/domain/ports"
-	"orderMatching/pkg/common/errors"
+	"github.com/mehdivijeh/matching-engine/internal/domain/entities"
+	"github.com/mehdivijeh/matching-engine/internal/domain/ports"
+	"github.com/mehdivijeh/matching-engine/pkg/common/errors"
 )
 
 type OrderBook struct {

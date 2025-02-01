@@ -7,11 +7,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"orderMatching/internal/application/service"
-	"orderMatching/internal/infrastructure/messaging"
-	"orderMatching/internal/infrastructure/orderbook"
-	"orderMatching/internal/infrastructure/repository"
-	"orderMatching/pkg/common/config"
+	"github.com/mehdivijeh/matching-engine/internal/application/service"
+	"github.com/mehdivijeh/matching-engine/internal/infrastructure/messaging"
+	"github.com/mehdivijeh/matching-engine/internal/infrastructure/orderbook"
+	"github.com/mehdivijeh/matching-engine/internal/infrastructure/repository"
+	"github.com/mehdivijeh/matching-engine/pkg/common/config"
 )
 
 func main() {

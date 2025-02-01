@@ -1,7 +1,7 @@
 package orderbook
 
 import (
-	"orderMatching/internal/domain/entities"
+	"github.com/mehdivijeh/matching-engine/internal/domain/entities"
 )
 
 type OrderItem struct {

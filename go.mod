@@ -1,4 +1,4 @@
-module orderMatching
+module github.com/mehdivijeh/matching-engine
 
 go 1.23
 

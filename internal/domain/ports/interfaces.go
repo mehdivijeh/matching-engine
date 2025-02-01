@@ -2,7 +2,7 @@ package ports
 
 import (
 	"context"
-	"orderMatching/internal/domain/entities"
+	"github.com/mehdivijeh/matching-engine/internal/domain/entities"
 )
 
 type OrderRepository interface {
